@@ -1,0 +1,39 @@
+{
+  "name": "brocap",
+  "version": "0.0.1",
+  "description": "Boiler plate for BROCAP (BROadCAstPlatform) GUI.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Herzan, Jiri Kocourek, Petr Machek",
+  "license": "MIT",
+  "devDependencies": {
+      "babel-core": "^6.0.20",
+      "babel-eslint": "^5.0.0-beta6",
+      "babel-loader": "^6.2.1",
+      "babel-preset-es2015": "^6.0.15",
+      "babel-preset-react": "^6.0.15",
+      "babel-preset-stage-0": "^6.0.15",
+      "css-loader": "^0.23.1",
+      "deep-freeze": "0.0.1",
+      "eslint-plugin-react": "^3.14.0",
+      "expect": "^1.13.4",
+      "file-loader": "^0.8.5",
+      "mocha": "^2.3.4",
+      "node-sass": "^3.4.2",
+      "react-hot-loader": "^1.3.0",
+      "sass-loader": "^3.1.2",
+      "style-loader": "^0.13.0",
+      "webpack": "^1.12.2",
+      "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+      "react": "^0.14.5",
+      "react-dom": "^0.14.5",
+      "react-redux": "^4.0.6",
+      "react-router": "^2.0.0-rc4",
+      "redux": "^3.0.5"
+  }
+}
